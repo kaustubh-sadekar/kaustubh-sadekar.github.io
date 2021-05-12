@@ -12,7 +12,7 @@ tags:
 
 The post motivates computer vision enthusiasts to understand the concept of different color spaces. It specifically highlights the effectiveness of HSV colorspace to segment different colors. To make the learning process fun and engaging, I have explained how to create an Invisibility cloak based on the color detection method.
 
-* This post was published on LearnOpenCV.com, a famous website for computer vision. 
+* This post was published on [LearnOpenCV.com](https://learnopencv.com/), a famous website for computer vision. 
 * Link to the full blog post is [here](https://www.learnopencv.com/invisibility-cloak-using-color-detection-and-segmentation-with-opencv/).
 * Link to the GitHub repository for the project is [here](https://github.com/kaustubh-sadekar/Invisibility_Cloak).
 
