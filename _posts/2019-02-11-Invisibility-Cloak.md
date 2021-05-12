@@ -35,7 +35,7 @@ The key steps involved in creating an invisibility cloak are as follows:
 The following GIF depicts the key steps of the application.
 
 <p align='center'>
-  <img src='https://github.com/kaustubh-sadekar/Invisibility_Cloak/blob/master/gif2.gif'>
+  <img src='/images/1.gif'>
 </p>
 
 ## Results
