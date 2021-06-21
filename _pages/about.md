@@ -17,8 +17,8 @@ feature_row:
     excerpt: "[OmniCV - A Library containing implementations of various mathematical models of omnidirectional camera](portfolio/p170-OmniCV-Library-contains-implementation-of-various-mathematical-models-for-omnidirectional-camera/)"
   - image_path: ../images/stereoLogo.gif
     excerpt: "[Low-Cost Custom Stereo Camera From USB Webcams](portfolio/p172-Low-Cost-Stereo-Camera-From-USB-Webcams/)"
-  - image_path: ../images/cars2_render.gif
-    excerpt: "[GPU Accelerated Vectorized PyTorch Implementation of ICP Algorithm](portfolio/p175-Fall-Detection-Using-Pose-Estimation/)"
+  - image_path: ../images/pgNet.gif
+    excerpt: "[Handwritten content binarization using Deep CNN](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
   - image_path: ../images/pgNet.gif
     excerpt: "[Handwritten content binarization using Deep CNN](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
   - image_path: ../images/CashewGAN.gif
