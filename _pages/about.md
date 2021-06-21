@@ -18,7 +18,7 @@ feature_row:
   - image_path: ../images/stereoLogo.gif
     excerpt: "[Low-Cost Custom Stereo Camera From USB Webcams](portfolio/p172-Low-Cost-Stereo-Camera-From-USB-Webcams/)"
   - image_path: ../images/cars2_icp.gif
-    excerpt: "[Handwritten content binarization using Deep CNN](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
+    excerpt: "[GPU Accelerated Vectorized PyTroch Implementation of Iterative Closest Point Algorithm](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
   - image_path: ../images/pgNet.gif
     excerpt: "[Handwritten content binarization using Deep CNN](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
   - image_path: ../images/CashewGAN.gif
