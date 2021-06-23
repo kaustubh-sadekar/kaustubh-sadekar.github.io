@@ -54,7 +54,7 @@ I created a **custom stereo calibration grid using ArUco markers**. This pattern
 
 ### Generating Disparity Map Using Block Matching Algorithm
 
-The **StereoCam** library has a facility to use the Block Matching algorithm for calculating dense stereo correspondence and the disparity map. The disparity map is then used for the calculation of depth maps. To learn more about disparity map and block matching algorithm please refer to my post <a href="https://learnopencv.com/depth-perception-using-stereo-camera-python-c/" target"_blank">Depth perception using stereo camera</a>. The post also explains how to convert disparity map to depth map. The Block Matching algorithm has several parameters that need to be tuned. **StereoCam** provides an interactive GUI to tune these parameters.
+The **StereoCam** library has a facility to use the Block Matching algorithm for calculating dense stereo correspondence and the disparity map. The disparity map is then used for the calculation of depth maps. To learn more about disparity map and block matching algorithm please refer to my post <a href="https://learnopencv.com/depth-perception-using-stereo-camera-python-c/" target="_blank">Depth perception using stereo camera</a>. The post also explains how to convert disparity map to depth map. The Block Matching algorithm has several parameters that need to be tuned. **StereoCam** provides an interactive GUI to tune these parameters.
 
 <p align="center">
   <img src='/images/tunedepthParams.gif'>
@@ -132,4 +132,4 @@ I learned the fundamental concepts of stereo vision from <a href="https://www.cs
 2.  C. Loop and Z. Zhang. Computing Rectifying Homographies for Stereo Vision. IEEE Conf. Computer Vision and Pattern Recognition, 1999.
 3. Hirschmüller, Heiko (2005). “Accurate and efficient stereo processing by semi-global matching and mutual information”. IEEE Conference on Computer Vision and Pattern Recognition. pp. 807–814.
 4. Birchfield and C. Tomasi, “Depth discontinuities by pixel-to-pixelstereo,”International Journal of Computer Vision, vol. 35, no. 3,pp. 269–293, 1999.
-5. Similar stereo camera project. GitHub link – https://github.com/LearnTechWithUs/Stereo-Vision
+5. Similar stereo camera project. <a href="https://github.com/LearnTechWithUs/Stereo-Vision" target="_blank">GitHub link</a>.
