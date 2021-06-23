@@ -29,12 +29,8 @@ Kinect Fusion is a real-time 3D reconstruction algorithm that generates a 3D mod
 ---
 
 Ordered or organized pointclouds contain the information of 3D points arranged in a matrix like structure where the data is split into rows and columns. In case of ordered pointcloud the memory layout of the points is closely related to the spatial layout as represented by these XYZ values which means neighbouring points in the pointcloud are also neighbouring points in the memory layour. This property can be used to speed up the process of calculating normals.
-The equation of back-projection is as follows:
-
-<p align="center">
-  <img src='/images/math/back-projection.gif' width="100">
-</p>
-Here K is the 3x3 intrinsic camera matric.
+The vectorized implementaiton computes 3D points for each pixel **u** = (x, y) in the incoming depth map **D**<sub>i</sub>(**u**) parallely.
+Here K is the 3x3 intrinsic camera matrix. Corresponding 3D points in the camera’s coordinate space are calculated as follows: **vi**(**u**) = **D**<sub>i</sub>(u) **K**−1[u, 1]. This results in a single vertex map (2.5 D pointcloud) **V**<sub>i</sub> computed in parallel. The <a href="https://pytorch.org/docs/stable/generated/torch.meshgrid.html" target="_blank">meshgrid method of PyTorch</a> was used for the GPU accelerated vectorized implementation.
 
 ### Stereo Calibration And Rectification
 
