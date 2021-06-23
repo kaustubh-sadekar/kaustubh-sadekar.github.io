@@ -32,10 +32,9 @@ Ordered or organized pointclouds contain the information of 3D points arranged i
 The equation of back-projection is as follows:
 
 <p align="center">
-  <img src='/images/math/back-projection.gif'>
+  <img src='/images/math/back-projection.gif' width="100">
 </p>
-
-
+Here K is the 3x3 intrinsic camera matric.
 
 ### Stereo Calibration And Rectification
 
