@@ -17,7 +17,7 @@ feature_row:
     excerpt: "[SPARK - ROS Based Robotic Sketching Arm With Visual Feedback Using ArUco Markers](portfolio/p060-spark-robotic-sketching-arm/)"
   - image_path: ../images/e2feye.gif
     excerpt: "[OmniCV - A Library containing implementations of various mathematical models of omnidirectional camera](portfolio/p070-OmniCV-Library-contains-implementation-of-various-mathematical-models-for-omnidirectional-camera/)"
-  - image_path: ../images/cyclops-objDetectWithDist.gif
+  - image_path: ../images/cyclops.gif
     excerpt: "[Cyclops - A Spatial AI based Assistant for Visually Impaired People](portfolio/p080-cyclops-spatialAI-powered-visual-assistant/)"
   - image_path: ../images/SLAM.gif
     excerpt: "[Analysis of Visual SLAM methods](portfolio/p150-Analysis-of-Visual-SLAM-methods/)"
