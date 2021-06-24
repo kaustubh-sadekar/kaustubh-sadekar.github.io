@@ -36,7 +36,7 @@ Kinect Fusion is a real-time 3D reconstruction algorithm that generates a 3D mod
 7. Using **ray casting**, obtain global pointcloud pcl_global and global normal map nmap_global. 
 8. Apply **(Iterative closest Point) ICP algorithm** to find the camera's pose (rotation and translation) when it captured the depth map in step 5.
 9. Use the camera pose information obtained in the above step to **fuse the TSDF information** obtained in step 5  with the global TSDF.
-10. Repeat step 6 to step 9 until all depthmaps are fused together.
+10. Repeat step 6 to step 9 until all depth maps are fused.
 
 
 ### Vectorized implementation to extract 2.5D ordered pointcloud from an RGB-D Image
@@ -86,11 +86,11 @@ Fusing TSDF information is as simple as averaging or weighted sum. It is also ea
 
 The TSDF values are updated using weighted averaging only for the voxels that are captured by the camera. A vectorized implementation for this task was written, which provided a mask for all the valid voxels. This, in a way, represents the ray casting step of Kinect fusion. The mask obtained in this stage is used to find the target pointcloud for the fast ICP step. 
 
-The PyTorch implementation is inspired by <a href="https://github.com/andyzeng/tsdf-fusion-python" target="_blank">this project</a> but instead of using marching cubes I have written a vectorized thresholding based method which further reduces the computation time.
+The PyTorch implementation is inspired by <a href="https://github.com/andyzeng/tsdf-fusion-python" target="_blank">this project</a>, but instead of using marching cubes, I have written a vectorized thresholding based method which further reduces the computation time.
 
 It is important to note that TSDF fusion gives promising results, and most of its components can leverage GPU acceleration capabilities, but at the same time, it is memory expensive. Storing even a 512x512x512 voxel grid representing the 3D volume can require 6GB of GPU RAM. Hence the output depends on the available hardware. Presently I have only implemented TSDF fusion for a fixed size of the voxel grid. 
 
-To improve the reconstruction quality, we can divide the entire 3D space into larger sections and represent each section with an NxNxN voxel grid, and only the section visible to the camera can be transfered to GPU. This is similar to voxel hashing. Open3D provides <a href="http://www.open3d.org/docs/release/python_api/open3d.pipelines.integration.ScalableTSDFVolume.html#open3d.pipelines.integration.ScalableTSDFVolume" target="_blank">ScalableTSDFVolume</a> class to handle this.
+To improve the reconstruction quality, we can divide the entire 3D space into larger sections and represent each section with an NxNxN voxel grid, and only the section visible to the camera can be transferred to GPU. This is similar to voxel hashing. Open3D provides <a href="http://www.open3d.org/docs/release/python_api/open3d.pipelines.integration.ScalableTSDFVolume.html#open3d.pipelines.integration.ScalableTSDFVolume" target="_blank">ScalableTSDFVolume</a> class to handle this.
 
 
 
@@ -135,16 +135,17 @@ To improve the reconstruction quality, we can divide the entire 3D space into la
 </p>
 
 <p align='center'>
-  GIF showing the global map being reconstructed using the GPU acelerated vectorized implementation of TSDF Fusion using PyTorch. The reconstruction took 10.8 seconds - fusing 1000 RGB-D frames. 
+  GIF showing the global map being reconstructed using the GPU accelerated vectorized implementation of TSDF Fusion using PyTorch. The reconstruction took 10.8 seconds - fusing 1000 RGB-D frames. 
 </p>
 
 
 ## Future Work
 ---
 
-Currently the implementation is restricted to a fixed 3D volume. For high quality large scale reconstruction I am currently using the ScalableTSDFVolume method of Open3D. I plan to add a similar facility to the vectorized implementation.
+Currently, the implementation is restricted to a fixed 3D volume. For high-quality, large-scale reconstruction, I am currently using the ScalableTSDFVolume method of Open3D. I plan to add a similar facility to the vectorized implementation.
 
 ## References
+---
 
 1. Izadi, Shahram & Kim, David & Hilliges, Otmar & Molyneaux, David & Newcombe, Richard & Kohli, Pushmeet & Shotton, Jamie & Hodges, Steve & Freeman, Dustin & Davison, Andrew & Fitzgibbon, Andrew. (2011). KinectFusion: Real-time 3D reconstruction and interaction using a moving depth camera. UIST'11 - Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology. 
 2. Li, Fei & Du, Yunfan & Liu, Rujie. (2016). Truncated Signed Distance Function Volume Integration Based on Voxel-Level Optimization for 3D Reconstruction. Electronic Imaging. 2016. 1-6. 
