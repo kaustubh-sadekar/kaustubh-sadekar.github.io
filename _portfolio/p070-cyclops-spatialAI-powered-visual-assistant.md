@@ -49,6 +49,14 @@ Finally, the user will be informed when the object is close enough to be held.
 </p>
 
 
+<p align='center'>
+  <img src='/images/cyclops-product.png' width=400>
+</p>
+<p align='center'>
+    Product sketch for Cyclops. 
+</p>
+
+
 ## Implementation Details
 ---
 
