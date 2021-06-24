@@ -7,18 +7,26 @@ redirect_from:
   - /about/
   - /about.html
 feature_row:
-  - image_path: ../images/stereoLogo.gif
-    excerpt: "[Low-Cost RGB-D Camera For 3D Perception](portfolio/p040-Low-Cost-RGBD-Camera-For-3D-Perception/)"
-  - image_path: ../images/KinFu_LivingRoom.gif
-    excerpt: "[Implementation of Kinect Fusion Algorithm For 3D Reconstruction](portfolio/p050-implementation-of-kinect-fusion-algorithm-for-3d-reconstruction-using-rgbd-images/)"
   - image_path: ../images/1.gif
-    excerpt: "[SPARK - ROS Based Robotic Sketching Arm With Visual Feedback Using ArUco Markers](portfolio/p060-spark-robotic-sketching-arm/)"
-  - image_path: ../images/e2feye.gif
-    excerpt: "[OmniCV - A Library containing implementations of various mathematical models of omnidirectional camera](portfolio/p070-OmniCV-Library-contains-implementation-of-various-mathematical-models-for-omnidirectional-camera/)"
-  - image_path: ../images/cyclops-objDetectWithDist.gif
-    excerpt: "[Cyclops - A Spatial AI based Assistant for Visually Impaired People](portfolio/p080-cyclops-spatialAI-powered-visual-assistant/)"
+    alt: "placeholder image 1"
+    excerpt: "[SPARK - ROS Based Robotic Sketching Arm With Visual Feedback Using ArUco Markers](portfolio/p100-spark-robotic-sketching-arm/)"
   - image_path: ../images/SLAM.gif
+    alt: "placeholder image 2"
     excerpt: "[Analysis of Visual SLAM methods](portfolio/p150-Analysis-of-Visual-SLAM-methods/)"
+  - image_path: ../images/e2feye.gif
+    excerpt: "[OmniCV - A Library containing implementations of various mathematical models of omnidirectional camera](portfolio/p170-OmniCV-Library-contains-implementation-of-various-mathematical-models-for-omnidirectional-camera/)"
+  - image_path: ../images/stereoLogo.gif
+    excerpt: "[Low-Cost Custom Stereo Camera From USB Webcams](portfolio/p172-Low-Cost-Stereo-Camera-From-USB-Webcams/)"
+  - image_path: ../images/cars2_icp.gif
+    excerpt: "[GPU Accelerated Vectorized PyTroch Implementation of Iterative Closest Point Algorithm](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
+  - image_path: ../images/pgNet.gif
+    excerpt: "[Handwritten content binarization using Deep CNN](portfolio/p174-Hand-written-content-binarization-using-Deep-CNN/)"
+  - image_path: ../images/CashewGAN.gif
+    excerpt: "[Cashew GAN](portfolio/p176-Cashew-GAN/)"
+  - image_path: ../images/lump-detection.gif
+    excerpt: "[Real-time visual inspection software for lump detection in fiber optic cables](portfolio/p180-Real-time-vision-software-for-lump-detection-in-fiber-optic-cables/)"
+  - image_path: ../images/pixocube.gif
+    excerpt: "[Interactive 3D cube using face detection and Kalman filter based tracking using OpenCV for rendering and No OpenGL](portfolio/p190-Interractive-3D-cube-using-face-detection-and-kalman-filter-based-tracking/)"
 ---
 I am a Junior Research Fellow at the Indian Institute of Technology Gandhinagar, working under the valuable guidance of <a href="https://people.iitgn.ac.in/~shanmuga/index.html" target="_blank">Prof. Shanmuganathan Raman</a>. My current research is focused on Geometric Deep Learning methods to solve the following problems - improving the quality of incomplete structured light scans and surface analysis and restoration of broken 3D objects. I got curious and interest in 3D Deep Learning while working on Monocular Visual SLAM methods for Omnidirectional Cameras at the Autonomous Robots and Multi-robot Systems [(ARMS) Lab of the Indian Institute of Technology Bombay](https://www.sc.iitb.ac.in/robotics/index.html), where I worked as a Research Associate under the valuable guidance of [Prof. Leena Vachhani](https://www.sc.iitb.ac.in/~leena/) and [Prof. Abhishek Gupta](https://www.me.iitb.ac.in/?q=faculty/Prof.%20Abhishek%20Gupta). Along with estimating the 3D information from images, it is equally important to make sense of this 3D data. This motivated me to explore 3D Deep Learning further.
 
