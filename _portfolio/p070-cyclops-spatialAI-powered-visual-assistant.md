@@ -4,7 +4,7 @@ excerpt: "<br/><img src='/images/cyclops.gif'>"
 collection: portfolio
 ---
 
-Collaborators: Malav Bateriwala, Vishruth Kumar 
+Collaborators: **Malav Bateriwala, Vishruth Kumar **
 
 Our project was shortlisted for the <a href="https://opencv.org/announcing-the-opencv-spatial-ai-competition-sponsored-by-intel-phase-1-winners/" target="_blank">OpenCV Spatial-AI competetion sponsored by Intel and OpenCV.org</a>. We were among the **top 32 teams** selected **out of 235** teams all over the world.
 
