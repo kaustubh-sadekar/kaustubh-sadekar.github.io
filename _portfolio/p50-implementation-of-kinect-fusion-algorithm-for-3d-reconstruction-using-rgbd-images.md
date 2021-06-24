@@ -86,7 +86,7 @@ Fusing TSDF information is as simple as averaging or weighted sum. It is also ea
 
 The TSDF values are updated using weighted averaging only for the voxels that are captured by the camera. A vectorized implementation for this task was written, which provided a mask for all the valid voxels. This, in a way, represents the ray casting step of Kinect fusion. The mask obtained in this stage is used to find the target pointcloud for the fast ICP step. 
 
-The PyTorch implementation is inspired by <a href="https://github.com/andyzeng/tsdf-fusion" target="_blank">this project</a> but instead of using marching cubes I have written a vectorized thresholding based method which further reduces the computation time.
+The PyTorch implementation is inspired by <a href="https://github.com/andyzeng/tsdf-fusion-python" target="_blank">this project</a> but instead of using marching cubes I have written a vectorized thresholding based method which further reduces the computation time.
 
 It is important to note that TSDF fusion gives promising results, and most of its components can leverage GPU acceleration capabilities, but at the same time, it is memory expensive. Storing even a 512x512x512 voxel grid representing the 3D volume can require 6GB of GPU RAM. Hence the output depends on the available hardware. Presently I have only implemented TSDF fusion for a fixed size of the voxel grid. 
 
@@ -94,6 +94,61 @@ To improve the reconstruction quality, we can divide the entire 3D space into la
 
 
 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-7btt" rowspan="2">Voxel Resolution</th>
+    <th class="tg-7btt" rowspan="2">Memory Required</th>
+    <th class="tg-7btt" colspan="2">Avf. Time To Fuse 200 Frames</th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">(CPU)</td>
+    <td class="tg-c3ow">(GPU)</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">447 x 398 x 444</td>
+    <td class="tg-c3ow">5.24 GB</td>
+    <td class="tg-c3ow">140.81 (s)</td>
+    <td class="tg-c3ow">7.32 (s)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">224 x 199 x 222</td>
+    <td class="tg-baqh">2.28 GB</td>
+    <td class="tg-baqh">18.26 (s)</td>
+    <td class="tg-baqh">2.36 (s)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">128 x 114 x 127</td>
+    <td class="tg-baqh">1.5 GB</td>
+    <td class="tg-baqh">6.31 (s)</td>
+    <td class="tg-baqh">0.26 (s)</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+<p align='center'>
+  <img src='/images/Torch_TSDF_Fusion.gif' width=450>
+</p>
+
+<p align='center'>
+  GIF showing the global map being reconstructed using the GPU acelerated vectorized implementation of TSDF Fusion using PyTorch. The reconstruction took 10.8 seconds - fusing 1000 RGB-D frames. 
+</p>
+
+
+## Future Work
+---
+
+Currently the implementation is restricted to a fixed 3D volume. For high quality large scale reconstruction I am currently using the ScalableTSDFVolume method of Open3D. I plan to add a similar facility to the vectorized implementation.
+
+## References
+
+1. Izadi, Shahram & Kim, David & Hilliges, Otmar & Molyneaux, David & Newcombe, Richard & Kohli, Pushmeet & Shotton, Jamie & Hodges, Steve & Freeman, Dustin & Davison, Andrew & Fitzgibbon, Andrew. (2011). KinectFusion: Real-time 3D reconstruction and interaction using a moving depth camera. UIST'11 - Proceedings of the 24th Annual ACM Symposium on User Interface Software and Technology. 
+2. Li, Fei & Du, Yunfan & Liu, Rujie. (2016). Truncated Signed Distance Function Volume Integration Based on Voxel-Level Optimization for 3D Reconstruction. Electronic Imaging. 2016. 1-6. 
+3. Original TSDF Fusion library : <a href="https://github.com/andyzeng/tsdf-fusion-python" target="_blank">https://github.com/andyzeng/tsdf-fusion-python</a>.
 
 
 
