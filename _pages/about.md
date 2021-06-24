@@ -9,7 +9,7 @@ redirect_from:
 feature_row:
   - image_path: ../images/1.gif
     alt: "placeholder image 1"
-    excerpt: "[SPARK - ROS Based Robotic Sketching Arm With Visual Feedback Using ArUco Markers](portfolio/p100-spark-robotic-sketching-arm/)"
+    excerpt: "<a href="portfolio/p100-spark-robotic-sketching-arm/" target="_blank">SPARK - ROS Based Robotic Sketching Arm With Visual Feedback Using ArUco Markers</a>"
   - image_path: ../images/SLAM.gif
     alt: "placeholder image 2"
     excerpt: "[Analysis of Visual SLAM methods](portfolio/p150-Analysis-of-Visual-SLAM-methods/)"
