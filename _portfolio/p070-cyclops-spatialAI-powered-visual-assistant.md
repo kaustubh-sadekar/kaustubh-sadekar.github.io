@@ -49,7 +49,7 @@ Finally, the user will be informed when the object is close enough to be held.
 </p>
 
 
-## Implementatio Details
+## Implementation Details
 ---
 
 Cyclops is developed using **OAK-D** and **Raspberry-Pi3**, and the code is developed in python. Processing of the code is divided into two threads using multi-threading. One thread takes care of taking audio input from the user and generating audio feedback. The second thread deals with the acquisition of the data from the OAK-D device.
