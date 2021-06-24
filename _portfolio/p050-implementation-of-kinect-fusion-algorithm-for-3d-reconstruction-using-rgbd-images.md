@@ -15,7 +15,7 @@ feature_row:
 Kinect Fusion is a real-time 3D reconstruction algorithm that generates a 3D model of a given scene using a sequence of depth images. There are some standard opensource implementations for the Kinect Fusion algorithm available online. However, most of them are written in C++. This project aims to create a complete python implementation of the Kinect Fusion algorithm and use **vectorization with PyTorch** to enable **GPU acceleration** capabilities.
 
 <p align='center'>
-  <img src='/images/KinFu_LivingRoom.gif'>
+  <img src='/images/KinFu_LivingRoom.gif' width=800>
 </p>
 <p align='center'>
     3D Reconstruction results on the <a href="http://redwood-data.org/indoor/dataset.html" target="_blank">livingroom sequence of ICL-NUIM dataset</a> using the implementation code. 
@@ -131,7 +131,7 @@ To improve the reconstruction quality, we can divide the entire 3D space into la
 
 
 <p align='center'>
-  <img src='/images/Torch_TSDF_Fusion.gif' width=450>
+  <img src='/images/Torch_TSDF_Fusion.gif' width=800>
 </p>
 
 <p align='center'>
