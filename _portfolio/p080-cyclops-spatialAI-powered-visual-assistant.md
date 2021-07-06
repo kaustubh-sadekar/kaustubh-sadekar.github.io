@@ -2,6 +2,7 @@
 title: "Cyclops - A Spatial AI based Assistant for Visually Impaired People"
 excerpt: "<br/><img src='/images/cyclops.gif'>"
 collection: portfolio
+youtubeId: OEDmPRZ-ZPM
 ---
 
 Collaborators: **Malav Bateriwala, Vishruth Kumar**
@@ -90,3 +91,6 @@ The output of object detection and the respective distance information is stored
 
 
 Project demo video is available <a href="https://www.youtube.com/watch?v=OEDmPRZ-ZPM" target="_blank">here</a>.
+
+{% include youtubePlayer.html id=page.youtubeId %}
+
