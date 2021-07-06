@@ -74,7 +74,7 @@ The generated text is then used to determine the object to be searched. We make 
 Object detection is performed by the OAK-D device connected to the host processor- Raspberry Pi 3B. The <a href="https://github.com/luxonis/depthai" target="_blank">depthai API</a> was used to obtain the image data captured by the OAK-D camera as well as the predictions. We use the **MobileNetSSD** model for object detection. OAK-D also provides depth information which can be combined with the object detection model to determine the distance of the detected objects from the camera. 
 
 <p align='center'>
-  <img src='https://github.com/kaustubh-sadekar/OAK-D_Experiments/blob/master/exp/color_disparity.gif' width=400>
+  <img src='/images/color_disparity.gif' width=400>
 </p>
 <p align='center'>
     Depthmap returned by the OAK-D. 
