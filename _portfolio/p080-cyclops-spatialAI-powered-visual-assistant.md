@@ -2,7 +2,8 @@
 title: "Cyclops - A Spatial AI based Assistant for Visually Impaired People"
 excerpt: "<br/><img src='/images/cyclops.gif'>"
 collection: portfolio
-youtubeId: OEDmPRZ-ZPM
+youtubeId1: OEDmPRZ-ZPM
+youtubeId2: OEDmPRZ-ZPM
 ---
 
 Collaborators: **Malav Bateriwala, Vishruth Kumar**
@@ -90,7 +91,7 @@ The output of object detection and the respective distance information is stored
 **Google Text-To-Speech (gTTS)** library is used to generate audio files from strings, and **mpg123 API** is used to play the generated audio files.
 
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id=page.youtubeId1 %}
 <p align='center'>
     Project demo video.
 </p>
