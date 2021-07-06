@@ -90,7 +90,8 @@ The output of object detection and the respective distance information is stored
 **Google Text-To-Speech (gTTS)** library is used to generate audio files from strings, and **mpg123 API** is used to play the generated audio files.
 
 
-Project demo video is available <a href="https://www.youtube.com/watch?v=OEDmPRZ-ZPM" target="_blank">here</a>.
-
 {% include youtubePlayer.html id=page.youtubeId %}
+<p align='center'>
+    Project demo video.
+</p>
 
