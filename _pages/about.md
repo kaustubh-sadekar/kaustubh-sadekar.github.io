@@ -22,7 +22,15 @@ feature_row:
   - image_path: ../images/SLAM.gif
     excerpt: "[Analysis of Visual SLAM methods](portfolio/p150-Analysis-of-Visual-SLAM-methods/)"
 ---
-I am a Junior Research Fellow at the Indian Institute of Technology Gandhinagar, working under the valuable guidance of <a href="https://people.iitgn.ac.in/~shanmuga/index.html" target="_blank">Prof. Shanmuganathan Raman</a>. My current research is focused on Geometric Deep Learning methods to solve the following problems - improving the quality of incomplete structured light scans and surface analysis and restoration of broken 3D objects. I got curious and interest in 3D Deep Learning while working on Monocular Visual SLAM methods for Omnidirectional Cameras at the Autonomous Robots and Multi-robot Systems [(ARMS) Lab of the Indian Institute of Technology Bombay](https://www.sc.iitb.ac.in/robotics/index.html), where I worked as a Research Associate under the valuable guidance of [Prof. Leena Vachhani](https://www.sc.iitb.ac.in/~leena/) and [Prof. Abhishek Gupta](https://www.me.iitb.ac.in/?q=faculty/Prof.%20Abhishek%20Gupta). 
+I am a Junior Research Fellow at the Indian Institute of Technology Gandhinagar, supervised by <a href="https://people.iitgn.ac.in/~shanmuga/index.html" target="_blank">Prof. Shanmuganathan Raman</a>. My current research is focused on Deep Learning methods to solve the following problems - improving the quality of incomplete structured light scans, sparse view dense 3D reconstruction and monocular/stereo depth estimation. I got interest in 3D Deep Learning while working on Monocular Visual SLAM methods for Omnidirectional Cameras at the Autonomous Robots and Multi-robot Systems [(ARMS) Lab of the Indian Institute of Technology Bombay](https://www.sc.iitb.ac.in/robotics/index.html), where I worked as a Research Associate supervised by [Prof. Leena Vachhani](https://www.sc.iitb.ac.in/~leena/) and [Prof. Abhishek Gupta](https://www.me.iitb.ac.in/?q=faculty/Prof.%20Abhishek%20Gupta). 
+
+Research Interests
+==================
+
+- 3D Computer Vision and Geometric Deep Learning.
+- Multi-view Dense 3D Reconstruction.
+- Visual SLAM.
+- Monocular and Stereo Depth Estimation.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkaustubh-sadekar.github.io&count_bg=%233F8AFF&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Website+Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -45,19 +53,23 @@ Major Projects
 ## [See all projects](/portfolio.html)
 
 
-Research Interests
-==================
 
-- 3D shape and texture reconstruction from a sparse set of images.
-- Implicit representation of 3D data.
-- Object detection and 6D pose estimation in RGB and RGB-D images.
-- Graph Representation Learning.
-- Differentiable Rendering.
-- Depth estimation and Visual SLAM methods using normal and omnidirectional cameras.
-- Self-Supervised Learning.
-- Human pose estimation.
-- Video stabilization.
-- 360&deg; video and image processing.
+Publications and Technical Articles
+===================================
+
+**Research Papers**
+
+1. <a href="https://arxiv.org/abs/2101.11674" target="_blank"> HDIB1M -- Handwritten Document Image Binarization 1 Million Dataset </a> **Kaustubh Sadekar**, Prajwal Singh, Shanmuganathan Raman. arXiv preprint arXiv:2101.11674. 
+
+**Technical Articles**
+
+1. <a href="https://learnopencv.com/depth-perception-using-stereo-camera-python-c/" target="_blank"> Depth perception using stereo camera (Python and C++). </a> **Kaustubh Sadekar**. LearnOpenCV.com 2021.
+2. <a href="https://learnopencv.com/making-a-low-cost-stereo-camera-using-opencv/" target="_blank"> Making A Low-Cost Stereo Camera Using OpenCV. </a> **Kaustubh Sadekar**. LearnOpenCV.com 2021.
+3. <a href="https://learnopencv.com/introduction-to-epipolar-geometry-and-stereo-vision/" target="_blank"> Introduction to Epipolar Geometry and Stereo Vision.  </a> **Kaustubh Sadekar** LearnOpenCV.com 2021.
+4. <a href="https://learnopencv.com/understanding-lens-distortion/" target="_blank"> Understanding Lens Distortion. </a> **Kaustubh Sadekar**. LearnOpenCV.com 2020.
+5. <a href="https://learnopencv.com/camera-calibration-using-opencv/" target"_blank"> Camera Calibration using OpenCV. </a> **Kaustubh Sadekar**, Satya Mallick. LearnOpenCV.com 2020.
+6. <a href="https://learnopencv.com/funny-mirrors-using-opencv/" target="_blank"> Funny Mirrors Using OpenCV. </a> **Kaustubh Sadekar**. LearnOpenCV.com 2020.
+7. <a href="https://learnopencv.com/invisibility-cloak-using-color-detection-and-segmentation-with-opencv/" target="_blank"> Invisibility Cloak using simple CV techniques in OpenCV. </a>. **Kaustubh Sadekar**. LearnOpenCV.com 2019.
 
 
 Know More About Me
