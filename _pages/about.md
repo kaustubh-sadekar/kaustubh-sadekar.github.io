@@ -49,7 +49,6 @@ Major Projects
 ==============
 
 {% include feature_row %}
-
 ## [See all projects](/portfolio.html)
 
 
