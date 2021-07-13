@@ -67,7 +67,7 @@ Publications and Technical Articles
 2. <a href="https://learnopencv.com/making-a-low-cost-stereo-camera-using-opencv/" target="_blank"> Making A Low-Cost Stereo Camera Using OpenCV. </a> **Kaustubh Sadekar**. LearnOpenCV.com 2021.
 3. <a href="https://learnopencv.com/introduction-to-epipolar-geometry-and-stereo-vision/" target="_blank"> Introduction to Epipolar Geometry and Stereo Vision.  </a> **Kaustubh Sadekar** LearnOpenCV.com 2021.
 4. <a href="https://learnopencv.com/understanding-lens-distortion/" target="_blank"> Understanding Lens Distortion. </a> **Kaustubh Sadekar**. LearnOpenCV.com 2020.
-5. <a href="https://learnopencv.com/camera-calibration-using-opencv/" target"_blank"> Camera Calibration using OpenCV. </a> **Kaustubh Sadekar**, Satya Mallick. LearnOpenCV.com 2020.
+5. <a href="https://learnopencv.com/camera-calibration-using-opencv/" target="_blank"> Camera Calibration using OpenCV. </a> **Kaustubh Sadekar**, Satya Mallick. LearnOpenCV.com 2020.
 6. <a href="https://learnopencv.com/funny-mirrors-using-opencv/" target="_blank"> Funny Mirrors Using OpenCV. </a> **Kaustubh Sadekar**. LearnOpenCV.com 2020.
 7. <a href="https://learnopencv.com/invisibility-cloak-using-color-detection-and-segmentation-with-opencv/" target="_blank"> Invisibility Cloak using simple CV techniques in OpenCV. </a>. **Kaustubh Sadekar**. LearnOpenCV.com 2019.
 
