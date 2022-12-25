@@ -367,7 +367,7 @@ background-color: #ffffd0;
           <td width="100%" valign="middle">
             <heading>FUNdamentals of CV</heading>
             <p style="font-size:21px;">
-              A series of FUN projects explaining classical 3D computer vision and image processing topics like epipolar geometry, calibration, color detection etc.
+              A series of fun projects explaining classical computer vision and image processing topics like calibration, camera projection, color detection etc.
             </p>
           </td>
         </tr>
@@ -382,84 +382,74 @@ background-color: #ffffd0;
       <div style="height:400px;overflow:auto;">
         
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
+	<!-- Pixo Cube	 -->
           <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
             <td style="padding:25px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='dd_image'><img src='gifs/ShadowArt1.gif' width="162"></div>
-                  <img src='gifs/ShadowArt1.gif' width="162">
+                  <div class="two" id='dd_image'><img src='gifs/pixocube.gif' width="162"></div>
+                  <img src='gifs/pixocube.gif' width="162">
                 </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/WACV2022/html/Sadekar_Shadow_Art_Revisited_A_Differentiable_Rendering_Based_Approach_WACV_2022_paper.html" target="_blank">
-                <papertitle>Shadow Art Revisited: A Differentiable Rendering Based Approach</papertitle>
+              <a href="https://kaustubh-sadekar.github.io/PixoCube/" target="_blank">
+                <papertitle>Interactive 3D window using Numpy and OpenCV</papertitle>
               </a>
-              <br>
-              <strong>Kaustubh Sadekar</strong>,
-              <a href="https://sites.google.com/iitgn.ac.in/ashishtiwari/" target="_blank">Ashish Tiwari*</a>,
-              <a href="http://people.iitgn.ac.in/~shanmuga/" target="_blank">Shanmuganathan Raman</a>,
-              <br>
-              <em>WACV</em>, 2022
-              <br>
-              <a href="https://kaustubh-sadekar.github.io/ShadowArt-Revisited/" target="_blank">project page</a>/
-              <a href="https://arxiv.org/abs/2107.14539" target="_blank">arXiv</a>/
-              <a href="#">video</a>
-              <p></p>
-              <p>We use differentiable rendering to create artistic 3D sculptures for shadow art effects.</p>
+	      <br>
+              <p>Python and C++ implementation for perspective camera projection using OpenCV and Numpy to create an interactive 3D window effect. Also implimented a Kalman filter for smooth face traciking.</p>
             </td>
           </tr>
-
+	
+	<!-- Fun Mirrors  -->
+            <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
+            <td style="padding:25px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='dd_image'><img src='gifs/FunnyMirrors.gif' width="162"></div>
+                  <img src='gifs/FunnyMirrors.gif' width="162">
+                </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://kaustubh-sadekar.github.io/FunMirrors/" target="_blank">
+                <papertitle>Fun mirrors using OpenCV</papertitle>
+              </a>
+              <br>
+              <p>Created a virtual camera model and used mesh based warping to generate sum fun effects.</p>
+            </td>
+          </tr>
+		
+	<!-- Invisibility Cloak -->
           <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
             <td style="padding:25px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='dd_image'><img src='gifs/ShadowArt1.gif' width="162"></div>
-                  <img src='gifs/ShadowArt1.gif' width="162">
+                  <div class="two" id='dd_image'><img src='gifs/InviCloak.gif' width="162"></div>
+                  <img src='gifs/InviCloak.gif' width="162">
                 </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/WACV2022/html/Sadekar_Shadow_Art_Revisited_A_Differentiable_Rendering_Based_Approach_WACV_2022_paper.html" target="_blank">
-                <papertitle>Shadow Art Revisited: A Differentiable Rendering Based Approach</papertitle>
+              <a href="https://kaustubh-sadekar.github.io/Invisibility_Cloak/Tutorial.html" target="_blank">
+                <papertitle>Invisibility cloak using OpenCV</papertitle>
               </a>
               <br>
-              <strong>Kaustubh Sadekar</strong>,
-              <a href="https://sites.google.com/iitgn.ac.in/ashishtiwari/" target="_blank">Ashish Tiwari*</a>,
-              <a href="http://people.iitgn.ac.in/~shanmuga/" target="_blank">Shanmuganathan Raman</a>,
-              <br>
-              <em>WACV</em>, 2022
-              <br>
-              <a href="https://kaustubh-sadekar.github.io/ShadowArt-Revisited/" target="_blank">project page</a>/
-              <a href="https://arxiv.org/abs/2107.14539" target="_blank">arXiv</a>/
-              <a href="#">video</a>
-              <p></p>
-              <p>We use differentiable rendering to create artistic 3D sculptures for shadow art effects.</p>
+              <p>Used OpenCV for color based segmentation to create a fun application of invisibility cloak.</p>
             </td>
           </tr>
-
-          <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
+	
+	<!-- Air Drums  -->
+            <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
             <td style="padding:25px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='dd_image'><img src='gifs/ShadowArt1.gif' width="162"></div>
-                  <img src='gifs/ShadowArt1.gif' width="162">
+                  <div class="two" id='dd_image'><img src='gifs/AirDrums.gif' width="162"></div>
+                  <img src='gifs/AirDrums.gif' width="162">
                 </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/WACV2022/html/Sadekar_Shadow_Art_Revisited_A_Differentiable_Rendering_Based_Approach_WACV_2022_paper.html" target="_blank">
-                <papertitle>Shadow Art Revisited: A Differentiable Rendering Based Approach</papertitle>
+              <a href="https://kaustubh-sadekar.github.io/AIR_Drums/Tutorial.html" target="_blank">
+                <papertitle>Air drums using OpenCV</papertitle>
               </a>
               <br>
-              <strong>Kaustubh Sadekar</strong>,
-              <a href="https://sites.google.com/iitgn.ac.in/ashishtiwari/" target="_blank">Ashish Tiwari*</a>,
-              <a href="http://people.iitgn.ac.in/~shanmuga/" target="_blank">Shanmuganathan Raman</a>,
-              <br>
-              <em>WACV</em>, 2022
-              <br>
-              <a href="https://kaustubh-sadekar.github.io/ShadowArt-Revisited/" target="_blank">project page</a>/
-              <a href="https://arxiv.org/abs/2107.14539" target="_blank">arXiv</a>/
-              <a href="#">video</a>
-              <p></p>
-              <p>We use differentiable rendering to create artistic 3D sculptures for shadow art effects.</p>
+              <p>Used color based segmentation to create a fun application to play drums in air!</p>
             </td>
           </tr>
+		
         </table>
       </div>
     <!-- <div style="height:100px;font:14px Arial, Serif;overflow:auto;">
